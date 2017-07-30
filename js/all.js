@@ -85,6 +85,22 @@ $(document).ready(function(){
     	     		var mapOptions = {
     	            zoom: 11,
     	            center: latlng
+                  panControl: true,
+                  zoomControl: true,
+                  zoomControlOptions:{
+                    style:google.maps.ZoomControlStyle.LARGE,
+                    position:google.maps.ControlPosition.LEFT_CENTER
+                  },
+                  streetViewControl:true,
+                  streetViewControlOptions:{
+                    position:google.maps.ControlPosition.LEFT_CENTER
+                  },
+                  mapTypeControl:true,
+                    mapTypeControlOptions:{
+                      style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                      position:google.maps.ControlPosition.LEFT_BOTTOM
+                    }
+
     	        	};
     				}
     			}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>台北市最新災情查詢</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+  </head>
+  <body>
+    <div class="nav-bar">
+
+    </div>
+    <div class="top-container">
+      <div class="title-container">
+        <h1><span>台北市</span>最新災情查詢</h1>
+        <select class="select-dis"></select>
+        <h2>防災災情及相關諮詢電話：87863119分機8900~8907 </h2>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="map" id="map"></div>
+      <div class="content">
+        <table class="details">
+          <tr class="title">
+            <th style="width:60px">區域</th>
+            <th style="width:115px">時間</th>
+            <th style="width:auto">狀況</th>
+            <th style="width:60px">位置</th>
+          </tr>
+        </table>
+        <table class="details-content">
+        <!--<tr>
+          <td><h3>士林區</h3></td>
+          <td>2017-06-04 11:14:33</td>
+          <td>綠地內有一棵內樹木全倒，影響道路行人通行。</td>
+          <td><a href="#"><img src="img/location.svg" alt="location"></a></td>
+        </tr>-->
+
+        </table>
+      <select class="select-dis list-m"></select>
+    </div>
+  </div>
+  <div class="footer">
+    <p>台北最新災情資訊  資料來源：臺北市政府消防局</p>
+
+  </div>
+
+
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/all.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClW6jp0-u1IGQOcxnHUy8JCLlwy17oQSU"
+    type="text/javascript"></script>
+  </body>
+</html>

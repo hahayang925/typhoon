@@ -84,7 +84,7 @@ $(document).ready(function(){
     					var latlng = new google.maps.LatLng(setData[i].Wgs84Y, setData[i].Wgs84X);
     	     		var mapOptions = {
     	            zoom: 11,
-    	            center: latlng
+    	            center: latlng,
                   panControl: true,
                   zoomControl: true,
                   zoomControlOptions:{
